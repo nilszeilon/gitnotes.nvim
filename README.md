@@ -18,7 +18,7 @@ with lazyvim:
 return {
 
   {
-    dir = "~/gitnotes.nvim/",
+    "nilszeilon/gitnotes.nvim",
     config = function()
       require("notes").setup({
         dir = vim.fn.expand("~") .. "/notes", -- default
